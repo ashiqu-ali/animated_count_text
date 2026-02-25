@@ -6,19 +6,47 @@ Supports integers, decimals, currency symbols, percentages, custom curves, and c
 
 ---
 
-## Installation
+## Preview
 
-Add the dependency to your `pubspec.yaml`:
+<p align="center">
+  <img src="assets/demo.gif" height="400"/>
+</p>
+
+---
+
+## Use this package as a library
+
+### Depend on it
+
+Run this command:
+
+With Flutter:
+
+```bash
+flutter pub add animated_count_text
+```
+
+This will add a line like this to your package's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  animated_count_text: ^1.0.0
+  animated_count_text: ^latest_version
 ```
 
-Then run:
+Alternatively, you can manually add it to your `pubspec.yaml` and run:
 
 ```bash
 flutter pub get
+```
+
+---
+
+### Import it
+
+Now in your Dart code, you can use:
+
+```dart
+import 'package:animated_count_text/animated_count_text.dart';
 ```
 
 ---
@@ -72,14 +100,14 @@ AnimatedCount(
 
 ## Properties
 
-| Property         | Type        | Description |
-|------------------|------------|------------|
-| `value`          | `num`      | The number to animate to |
-| `fractionDigits` | `int`      | Decimal precision (default: 0) |
-| `prefix`         | `String?`  | Text before the number |
-| `suffix`         | `String?`  | Text after the number |
-| `duration`       | `Duration` | Animation duration |
-| `curve`          | `Curve`    | Animation curve |
+| Property         | Type          | Description |
+|------------------|--------------|-------------|
+| `value`          | `num`        | The number to animate to |
+| `fractionDigits` | `int`        | Decimal precision (default: 0) |
+| `prefix`         | `String?`    | Text before the number |
+| `suffix`         | `String?`    | Text after the number |
+| `duration`       | `Duration`   | Animation duration |
+| `curve`          | `Curve`      | Animation curve |
 | `style`          | `TextStyle?` | Text styling |
 | `textAlign`      | `TextAlign?` | Text alignment |
 
