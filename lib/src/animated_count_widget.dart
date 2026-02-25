@@ -1,46 +1,45 @@
 import 'package:flutter/material.dart';
 import 'animated_count_state.dart';
 
-/// A smooth animated number text widget.
+/// A lightweight animated number text widget.
 ///
-/// This widget implicitly animates between the previous and new [value]
+/// Automatically animates between the previous and new [value]
 /// whenever the value changes.
 ///
-/// It supports:
-/// - Integer and double values
-/// - Decimal precision control
-/// - Optional prefix (e.g., ₹, $, €)
-/// - Optional suffix (e.g., %, pts)
-/// - Custom text alignment
+/// Supports:
+/// • Integers and doubles
+/// • Decimal precision control
+/// • Optional prefix (₹, $, €, etc.)
+/// • Optional suffix (%, pts, kg, etc.)
+/// • Custom animation duration and curve
+/// • Custom text styling and alignment
 ///
-/// Example – Basic:
+/// Example:
 /// ```dart
 /// AnimatedCount(
 ///   value: 1200,
 /// )
 /// ```
 ///
-/// Example – Currency:
+/// Currency example:
 /// ```dart
 /// AnimatedCount(
 ///   value: 2500,
 ///   prefix: "₹ ",
-///   fractionDigits: 0,
 /// )
 /// ```
 ///
-/// Example – Percentage:
+/// Decimal example:
 /// ```dart
 /// AnimatedCount(
-///   value: 87.5,
-///   suffix: "%",
-///   fractionDigits: 1,
+///   value: 12.3456,
+///   fractionDigits: 2,
 /// )
 /// ```
 class AnimatedCount extends ImplicitlyAnimatedWidget {
   /// Creates an animated numeric text widget.
   ///
-  /// The [value] parameter must not be null.
+  /// The [value] must not be null.
   const AnimatedCount({
     super.key,
     required this.value,
@@ -56,32 +55,27 @@ class AnimatedCount extends ImplicitlyAnimatedWidget {
   /// The numeric value to animate to.
   ///
   /// Accepts both [int] and [double].
-  /// Internally converted to [double] for animation.
   final num value;
 
-  /// The text style applied to the animated number.
+  /// Text style applied to the text.
   final TextStyle? style;
 
-  /// Controls the number of decimal digits displayed.
+  /// Number of decimal places to display.
   ///
-  /// Defaults to 0 (integer display).
+  /// Defaults to `0`.
   final int fractionDigits;
 
-  /// Optional text displayed before the animated number.
+  /// Optional text displayed before the number.
   ///
-  /// Common use cases:
-  /// - Currency symbols: `"₹"`, `"$"`
-  /// - Custom labels: `"Score: "`
+  /// Example: `"₹ "` or `"$ "`
   final String? prefix;
 
-  /// Optional text displayed after the animated number.
+  /// Optional text displayed after the number.
   ///
-  /// Common use cases:
-  /// - Percentage: `"%"`,
-  /// - Units: `" pts"`, `" kg"`
+  /// Example: `"%"` or `" pts"`
   final String? suffix;
 
-  /// How the text should be aligned horizontally.
+  /// Horizontal alignment of the text.
   final TextAlign? textAlign;
 
   @override
