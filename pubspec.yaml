@@ -1,0 +1,28 @@
+name: animated_count_text
+description: A lightweight animated text widget that smoothly counts between numeric values when they change. Supports integers, decimals, currency formatting, percentages, and custom animation curves.
+version: 1.0.0
+
+homepage: https://github.com/ashiqu-ali/animated_count_text
+repository: https://github.com/ashiqu-ali/animated_count_text
+issue_tracker: https://github.com/ashiqu-ali/animated_count_text/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+topics:
+  - animation
+  - counter
+  - text
+  - ui
+  - widget
+
+flutter:
