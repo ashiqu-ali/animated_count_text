@@ -9,7 +9,7 @@ Supports integers, decimals, currency symbols, percentages, custom curves, and c
 ## Preview
 
 <p align="center">
-  <img src="assets/demo.gif" height="400"/>
+  <img src="https://github.com/ashiqu-ali/animated_count_text/blob/main/assets/demo.gif" height="400"/>
 </p>
 
 ---
