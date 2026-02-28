@@ -1,3 +1,8 @@
+## 1.1.1
+
+- Fixed missing export for `String` parsing extension.
+- Minor package export correction.
+
 ## 1.1.0
 
 - Added safe `String` parsing extension:
