@@ -1,8 +1,27 @@
+<p align="center">
+  <a href="https://pub.dev/packages/animated_count_text">
+    <img src="https://img.shields.io/pub/v/animated_count_text?color=blueviolet"/>
+  </a>
+  <a href="https://pub.dev/packages/animated_count_text/score">
+    <img src="https://img.shields.io/pub/points/animated_count_text?logo=dart"/>
+  </a>
+  <a href="https://pub.dev/packages/animated_count_text/score">
+    <img src="https://img.shields.io/pub/likes/animated_count_text?logo=dart"/>
+  </a>
+  <img src="https://img.shields.io/badge/Platform-Flutter-blue?logo=flutter"/>
+  <a href="https://github.com/ashiqu-ali/animated_count_text">
+    <img src="https://img.shields.io/github/stars/ashiqu-ali/animated_count_text?style=social"/>
+  </a>
+  <a href="https://github.com/ashiqu-ali/animated_count_text/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/ashiqu-ali/animated_count_text"/>
+  </a>
+</p>
+
 # Animated Count Text
 
 A lightweight Flutter widget that smoothly animates numeric text whenever the value changes.
 
-Supports integers, decimals, currency symbols, percentages, custom curves, and configurable precision.
+Supports integers, decimals, currency symbols, percentages, custom curves, configurable precision, and safe string parsing.
 
 ---
 
@@ -98,6 +117,22 @@ AnimatedCount(
 
 ---
 
+## 🆕 Safe String Parsing Extension
+
+The package also includes a helpful string extension for safely converting strings to numbers without crashes.
+
+### Example
+
+```dart
+final intValue = "1200".toInt();        // 1200
+final doubleValue = "45.75".toDouble(); // 45.75
+final invalid = "abc".toInt();          // 0
+```
+
+Perfect for dynamic animations where input may come from APIs or text fields.
+
+---
+
 ## Properties
 
 | Property         | Type          | Description |
@@ -113,8 +148,34 @@ AnimatedCount(
 
 ---
 
-## License
+## ☕ Support
 
-MIT License
+<p align="center">
+  <a href="https://www.buymeacoffee.com/ashiqu.ali">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=%E2%98%95&slug=ashiqu.ali&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" />
+  </a>
+</p>
 
-https://opensource.org/licenses/MIT
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ashiqu-ali">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://ashiqu-ali.medium.com/">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" width="30"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/ashiqu_ali_">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="30"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="http://x.com/ashiquali007">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="30"/>
+  </a>
+</p>
+
+---

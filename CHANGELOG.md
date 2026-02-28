@@ -1,3 +1,11 @@
+## 1.1.0
+
+- Added safe `String` parsing extension:
+  - `toInt()` → returns `0` if parsing fails.
+  - `toDouble()` → returns `0.0` if parsing fails.
+- Improved overall package usability.
+- Minor internal refinements.
+
 ## 1.0.2
 
 - Minor README refinements.
