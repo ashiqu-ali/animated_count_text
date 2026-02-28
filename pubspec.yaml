@@ -1,6 +1,6 @@
 name: animated_count_text
 description: A lightweight Flutter widget that smoothly animates numeric text with support for decimals, prefixes, suffixes, and custom curves.
-version: 1.1.0
+version: 1.1.1
 
 homepage: https://github.com/ashiqu-ali/animated_count_text
 repository: https://github.com/ashiqu-ali/animated_count_text
