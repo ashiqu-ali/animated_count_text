@@ -9,6 +9,9 @@
     <img src="https://img.shields.io/pub/likes/animated_count_text?logo=dart"/>
   </a>
   <img src="https://img.shields.io/badge/Platform-Flutter-blue?logo=flutter"/>
+  <a href="https://ashiqu-ali.medium.com/animatedcount-a-lightweight-flutter-package-to-smoothly-animate-numbers-a536b18570f4">
+    <img src="https://img.shields.io/badge/DOCS-Medium-black?logo=medium"/>
+  </a>
   <a href="https://github.com/ashiqu-ali/animated_count_text">
     <img src="https://img.shields.io/github/stars/ashiqu-ali/animated_count_text?style=social"/>
   </a>
@@ -145,6 +148,22 @@ Perfect for dynamic animations where input may come from APIs or text fields.
 | `curve`          | `Curve`      | Animation curve |
 | `style`          | `TextStyle?` | Text styling |
 | `textAlign`      | `TextAlign?` | Text alignment |
+
+---
+
+## 📘 Documentation
+
+<p align="center">
+  <a href="https://ashiqu-ali.medium.com/animatedcount-a-lightweight-flutter-package-to-smoothly-animate-numbers-a536b18570f4">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" width="28"/>
+  </a>
+</p>
+
+Read the full guide and implementation details on Medium:
+
+[DOCS](https://ashiqu-ali.medium.com/animatedcount-a-lightweight-flutter-package-to-smoothly-animate-numbers-a536b18570f4)
+
+This keeps design consistent with your top badges.
 
 ---
 
